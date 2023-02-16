@@ -64,5 +64,5 @@ resources:
       service: sap-successfactors-extensibility
       service-plan: api-access
       config:
-        systemName: SFPART057671
+        systemName: SF_SFPART065552
         technicalUser: sfadmin

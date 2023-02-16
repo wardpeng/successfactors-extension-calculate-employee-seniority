@@ -38,7 +38,7 @@ module.exports = async srv => {
         else { return false; }
 
     };
-    messaging.on('sap/successfactors/SFPART057671/isc/contractchange', async (msg) => {
+    messaging.on('sap/successfactors/SFPART065552/isc/contractchange', async (msg) => {
         console.log("<< create event caught", msg);
 
 
@@ -100,7 +100,7 @@ module.exports = async srv => {
     if(issfsf){
       return {
         __metadata: {
-          uri: `https://apisalesdemo4.successfactors.com:443/odata/v2/EmpEmployment(personIdExternal='${userId}',userId='${userId}')`,
+          uri: `https://apisalesdemo8.successfactors.com:443/odata/v2/EmpEmployment(personIdExternal='${userId}',userId='${userId}')`,
           type: "SFOData.EmpEmployment",
         },
         customString1: years.toString(),

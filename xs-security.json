@@ -6,7 +6,7 @@
   "role-templates": [],
   "oauth2-configuration": {
     "redirect-uris": [
-    "https://*.<region>.applicationstudio.cloud.sap/"
+    "https://*.us10cf.trial.applicationstudio.cloud.sap/"
   ]
 }
 }
